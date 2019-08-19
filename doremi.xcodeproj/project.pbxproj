@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		CE35E9952306DDAB000A2228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35E9942306DDAB000A2228 /* AppDelegate.swift */; };
-		CE35E9972306DDAB000A2228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35E9962306DDAB000A2228 /* ViewController.swift */; };
 		CE35E99A2306DDAB000A2228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE35E9982306DDAB000A2228 /* Main.storyboard */; };
 		CE35E99C2306DDCB000A2228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE35E99B2306DDCB000A2228 /* Assets.xcassets */; };
 		CE35E99F2306DDCB000A2228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE35E99D2306DDCB000A2228 /* LaunchScreen.storyboard */; };
+		CE35E9AD2306DE3F000A2228 /* se_maoudamashii_instruments_piano1_5so.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE35E9A62306DE3D000A2228 /* se_maoudamashii_instruments_piano1_5so.wav */; };
+		CE35E9AE2306DE3F000A2228 /* se_maoudamashii_instruments_piano1_6ra.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE35E9A72306DE3D000A2228 /* se_maoudamashii_instruments_piano1_6ra.wav */; };
+		CE35E9AF2306DE3F000A2228 /* se_maoudamashii_instruments_piano1_1do.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE35E9A82306DE3D000A2228 /* se_maoudamashii_instruments_piano1_1do.wav */; };
+		CE35E9B02306DE3F000A2228 /* se_maoudamashii_instruments_piano1_3mi.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE35E9A92306DE3D000A2228 /* se_maoudamashii_instruments_piano1_3mi.wav */; };
+		CE35E9B12306DE3F000A2228 /* se_maoudamashii_instruments_piano1_4fa.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE35E9AA2306DE3E000A2228 /* se_maoudamashii_instruments_piano1_4fa.wav */; };
+		CE35E9B22306DE3F000A2228 /* se_maoudamashii_instruments_piano1_7si.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE35E9AB2306DE3E000A2228 /* se_maoudamashii_instruments_piano1_7si.wav */; };
+		CE35E9B32306DE3F000A2228 /* se_maoudamashii_instruments_piano1_2re.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE35E9AC2306DE3F000A2228 /* se_maoudamashii_instruments_piano1_2re.wav */; };
+		CE35E9B52306DE60000A2228 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35E9B42306DE60000A2228 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE35E9912306DDAA000A2228 /* doremi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doremi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE35E9942306DDAB000A2228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE35E9962306DDAB000A2228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE35E9992306DDAB000A2228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE35E99B2306DDCB000A2228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE35E99E2306DDCB000A2228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE35E9A02306DDCB000A2228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE35E9A62306DE3D000A2228 /* se_maoudamashii_instruments_piano1_5so.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = se_maoudamashii_instruments_piano1_5so.wav; sourceTree = "<group>"; };
+		CE35E9A72306DE3D000A2228 /* se_maoudamashii_instruments_piano1_6ra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = se_maoudamashii_instruments_piano1_6ra.wav; sourceTree = "<group>"; };
+		CE35E9A82306DE3D000A2228 /* se_maoudamashii_instruments_piano1_1do.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = se_maoudamashii_instruments_piano1_1do.wav; sourceTree = "<group>"; };
+		CE35E9A92306DE3D000A2228 /* se_maoudamashii_instruments_piano1_3mi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = se_maoudamashii_instruments_piano1_3mi.wav; sourceTree = "<group>"; };
+		CE35E9AA2306DE3E000A2228 /* se_maoudamashii_instruments_piano1_4fa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = se_maoudamashii_instruments_piano1_4fa.wav; sourceTree = "<group>"; };
+		CE35E9AB2306DE3E000A2228 /* se_maoudamashii_instruments_piano1_7si.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = se_maoudamashii_instruments_piano1_7si.wav; sourceTree = "<group>"; };
+		CE35E9AC2306DE3F000A2228 /* se_maoudamashii_instruments_piano1_2re.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = se_maoudamashii_instruments_piano1_2re.wav; sourceTree = "<group>"; };
+		CE35E9B42306DE60000A2228 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				CE35E9942306DDAB000A2228 /* AppDelegate.swift */,
-				CE35E9962306DDAB000A2228 /* ViewController.swift */,
 				CE35E9982306DDAB000A2228 /* Main.storyboard */,
 				CE35E99B2306DDCB000A2228 /* Assets.xcassets */,
 				CE35E99D2306DDCB000A2228 /* LaunchScreen.storyboard */,
 				CE35E9A02306DDCB000A2228 /* Info.plist */,
+				CE35E9A82306DE3D000A2228 /* se_maoudamashii_instruments_piano1_1do.wav */,
+				CE35E9AC2306DE3F000A2228 /* se_maoudamashii_instruments_piano1_2re.wav */,
+				CE35E9A92306DE3D000A2228 /* se_maoudamashii_instruments_piano1_3mi.wav */,
+				CE35E9AA2306DE3E000A2228 /* se_maoudamashii_instruments_piano1_4fa.wav */,
+				CE35E9A62306DE3D000A2228 /* se_maoudamashii_instruments_piano1_5so.wav */,
+				CE35E9A72306DE3D000A2228 /* se_maoudamashii_instruments_piano1_6ra.wav */,
+				CE35E9AB2306DE3E000A2228 /* se_maoudamashii_instruments_piano1_7si.wav */,
+				CE35E9B42306DE60000A2228 /* Player.swift */,
 			);
 			path = doremi;
 			sourceTree = "<group>";
@@ -122,9 +143,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE35E9B02306DE3F000A2228 /* se_maoudamashii_instruments_piano1_3mi.wav in Resources */,
+				CE35E9B22306DE3F000A2228 /* se_maoudamashii_instruments_piano1_7si.wav in Resources */,
 				CE35E99F2306DDCB000A2228 /* LaunchScreen.storyboard in Resources */,
 				CE35E99C2306DDCB000A2228 /* Assets.xcassets in Resources */,
+				CE35E9B12306DE3F000A2228 /* se_maoudamashii_instruments_piano1_4fa.wav in Resources */,
+				CE35E9AE2306DE3F000A2228 /* se_maoudamashii_instruments_piano1_6ra.wav in Resources */,
 				CE35E99A2306DDAB000A2228 /* Main.storyboard in Resources */,
+				CE35E9B32306DE3F000A2228 /* se_maoudamashii_instruments_piano1_2re.wav in Resources */,
+				CE35E9AF2306DE3F000A2228 /* se_maoudamashii_instruments_piano1_1do.wav in Resources */,
+				CE35E9AD2306DE3F000A2228 /* se_maoudamashii_instruments_piano1_5so.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE35E9972306DDAB000A2228 /* ViewController.swift in Sources */,
+				CE35E9B52306DE60000A2228 /* Player.swift in Sources */,
 				CE35E9952306DDAB000A2228 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J96677DK6N;
 				INFOPLIST_FILE = doremi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J96677DK6N;
 				INFOPLIST_FILE = doremi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

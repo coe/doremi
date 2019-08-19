@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,132 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fb0-xK-OI8">
+                                <rect key="frame" x="44" y="93" width="808" height="300"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiq-hi-9lr">
+                                        <rect key="frame" x="0.0" y="0.0" width="115.33333333333333" height="300"/>
+                                        <state key="normal" backgroundImage="do"/>
+                                        <connections>
+                                            <action selector="start:" destination="fNw-Xk-m6e" eventType="touchDown" id="CVC-Ca-mgN"/>
+                                            <action selector="stop:" destination="fNw-Xk-m6e" eventType="touchUpInside" id="7SK-Sx-OZ3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCN-ee-gu2">
+                                        <rect key="frame" x="115.33333333333334" y="0.0" width="115.66666666666666" height="300"/>
+                                        <state key="normal" backgroundImage="re"/>
+                                        <connections>
+                                            <action selector="start:" destination="Xar-RU-eil" eventType="touchDown" id="f6n-Ux-iO2"/>
+                                            <action selector="stop:" destination="Xar-RU-eil" eventType="touchUpInside" id="x21-nj-mEB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnQ-3h-8s9">
+                                        <rect key="frame" x="231.00000000000003" y="0.0" width="115.33333333333334" height="300"/>
+                                        <state key="normal" backgroundImage="mi"/>
+                                        <connections>
+                                            <action selector="start:" destination="wWA-eu-6ju" eventType="touchDown" id="Rm6-8o-7f9"/>
+                                            <action selector="stop:" destination="wWA-eu-6ju" eventType="touchUpInside" id="tZ9-Cp-Aps"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKb-aF-4f2">
+                                        <rect key="frame" x="346.33333333333331" y="0.0" width="115.33333333333331" height="300"/>
+                                        <state key="normal" backgroundImage="fa"/>
+                                        <connections>
+                                            <action selector="start:" destination="NJQ-cv-7wf" eventType="touchDown" id="duu-g5-TcM"/>
+                                            <action selector="stop:" destination="NJQ-cv-7wf" eventType="touchUpInside" id="Y8b-gJ-pJE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Guc-eH-QfQ">
+                                        <rect key="frame" x="461.66666666666669" y="0.0" width="115.33333333333331" height="300"/>
+                                        <state key="normal" backgroundImage="so"/>
+                                        <connections>
+                                            <action selector="start:" destination="paf-oA-Jnh" eventType="touchDown" id="sdr-CF-Me5"/>
+                                            <action selector="stop:" destination="paf-oA-Jnh" eventType="touchUpInside" id="SvF-N3-uIw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="803-t5-E0R">
+                                        <rect key="frame" x="577" y="0.0" width="115.66666666666663" height="300"/>
+                                        <state key="normal" backgroundImage="ra"/>
+                                        <connections>
+                                            <action selector="start:" destination="poH-9L-Uer" eventType="touchDown" id="U3N-WU-ZbM"/>
+                                            <action selector="stop:" destination="poH-9L-Uer" eventType="touchUpInside" id="O4u-SP-Ovs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jP1-xY-8Cd">
+                                        <rect key="frame" x="692.66666666666663" y="0.0" width="115.33333333333337" height="300"/>
+                                        <state key="normal" backgroundImage="si"/>
+                                        <connections>
+                                            <action selector="start:" destination="ccX-yr-5Ld" eventType="touchDown" id="yMa-Xv-eBr"/>
+                                            <action selector="stop:" destination="ccX-yr-5Ld" eventType="touchUpInside" id="IrW-VW-Ca6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="h4U-eg-aJ5"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fb0-xK-OI8" secondAttribute="trailing" id="TsG-sh-979"/>
+                            <constraint firstItem="fb0-xK-OI8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WhK-Of-2RN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fb0-xK-OI8" secondAttribute="bottom" id="gf0-Fp-OSB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="fNw-Xk-m6e" userLabel="Do" customClass="Player" customModule="doremi" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="path" value="se_maoudamashii_instruments_piano1_1do.wav"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+                <customObject id="Xar-RU-eil" userLabel="RE" customClass="Player" customModule="doremi" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="path" value="se_maoudamashii_instruments_piano1_2re.wav"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+                <customObject id="wWA-eu-6ju" userLabel="MI" customClass="Player" customModule="doremi" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="path" value="se_maoudamashii_instruments_piano1_3mi.wav"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+                <customObject id="NJQ-cv-7wf" userLabel="FA" customClass="Player" customModule="doremi" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="path" value="se_maoudamashii_instruments_piano1_4fa.wav"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+                <customObject id="paf-oA-Jnh" userLabel="SO" customClass="Player" customModule="doremi" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="path" value="se_maoudamashii_instruments_piano1_5so.wav"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+                <customObject id="poH-9L-Uer" userLabel="RA" customClass="Player" customModule="doremi" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="path" value="se_maoudamashii_instruments_piano1_6ra.wav"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+                <customObject id="ccX-yr-5Ld" userLabel="SI" customClass="Player" customModule="doremi" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="path" value="se_maoudamashii_instruments_piano1_7si.wav"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
             </objects>
+            <point key="canvasLocation" x="-268" y="-283"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="do" width="103" height="49"/>
+        <image name="fa" width="90" height="45"/>
+        <image name="mi" width="94" height="44"/>
+        <image name="ra" width="97" height="40"/>
+        <image name="re" width="75" height="38"/>
+        <image name="si" width="67" height="40"/>
+        <image name="so" width="68" height="44"/>
+    </resources>
 </document>
